@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://img.cancaonova.com/cnimages/canais/uploads/sites/6/2010/09/formacao_1600x1200-o-universo-pode-ter-sido-criado-sem-deus.jpg');
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px 0;
+    position: fixed;   
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: 150px;
+}
+
+h1 {
+
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+
+}
+
+
+    .conteudo {
+      margin-top: 300px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border: 1px solid black;
+      height: 500px;
+      position: relative;
+    }
+
+    .botao {
+      background-color: #000000c0; 
+      color: white;
+      padding: 60px 50px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .botao:hover {
+      background-color: #000000;  
+    }
+
+    .subtitulo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+
+    .texto{
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-style: normal;
+        padding: 300px;
+    }
+
+    .sub {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: smaller;
+    }
+
+    .email {
+         font-family: Arial, Helvetica, sans-serif;
+         font-style: normal;
+         font-size: 15px;
+         color: aliceblue;
+         text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+  
+    .fonte {
+        font-family: Arial, Helvetica, sans-serif;
+         font-style: normal;
+         font-size: 15px;
+         color: aliceblue;
+         border: 7px black;
+         border-radius: 10%;
+         text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
