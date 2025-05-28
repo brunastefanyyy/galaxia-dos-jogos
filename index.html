@@ -24,7 +24,7 @@
       Quer embarcar nessa jornada? Saiba mais e descubra um universo de jogos esperando por você!
       Saiba mais: <a href="https://www.exemplo.com">Clique aqui para visitar o site</a>
     </p>
-    <button onclick="window.location.href='https://www.rockstargames.com/VI'"
+    <button onclick="window.open('https://www.rockstargames.com/VI', '_blank')"
       style="all: unset; cursor: pointer; position: absolute; top: 40%; left: 80%; transform: translate(-50%, -50%); z-index: 1000;">
       <img src="https://i.ytimg.com/vi/QdBZY2fkU-0/maxresdefault.jpg" alt="Botão"
         style="width: 300px; border: 20px solid rgba(0, 0, 0, 0.5); border-radius: 8px;">
@@ -45,6 +45,13 @@
     <p class="email">Não perca atualizações épicas - Cadastre já seu e-mail!</p>
     <label for="email" class="fonte">E-mail:</label><br>
     <input type="email" id="email" name="email" required><br>
+
+    
+    <form action="/submit" method="post">
+    <label for="nome" style="color: aliceblue;">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <input type="submit" value="Enviar">
   </div>
 
 </body>
